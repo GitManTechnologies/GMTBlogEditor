@@ -51,7 +51,7 @@ app.whenReady().then(async () => {
 app.setAboutPanelOptions({
   applicationName: app.name,
   applicationVersion:
-    process.platform === 'darwin'
+    process.platform === 'win32'
       ? app.getVersion()
       : `v${app.getVersion()} (${process.versions['electron']})`,
   version: process.versions['electron'],
