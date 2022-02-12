@@ -1,12 +1,12 @@
 {
-  "name": "electron-react-ts",
-  "productName": "Sample",
-  "description": "An Electron boilerplate with hot reloading for React and TypeScript.",
-  "version": "1.3.4",
-  "license": "MIT",
+  "name": "gmt-blog-editor",
+  "productName": "BlogEditor",
+  "description": "GMT's BlogEditor on typescript, React, and Electron. Copyright GitManTechnologioes.",
+  "version": "0.0.1",
+  "license": "Apache 2.0",
   "author": {
-    "name": "example.com",
-    "email": "foo@example.com"
+    "name": "GitManTechnologies",
+    "email": "gitmantechnologies@gmail.com"
   },
   "main": "dist/main.js",
   "scripts": {

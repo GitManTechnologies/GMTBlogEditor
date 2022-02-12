@@ -1,17 +1,16 @@
-# electron-react-ts
+# GMTBlogEditor
 
-An [Electron](https://www.electronjs.org/) boilerplate with hot reloading for [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/).
+This is used [Electron](https://www.electronjs.org/), [React](https://reactjs.org/), and [TypeScript](https://www.typescriptlang.org/).
+This software was created to create a Blog for GitManTechnologies.
+The source code is available here, so please feel free to customize it and use it as you wish.
 
-<img src="./.ert/banner.svg#gh-light-mode-only" width="100%">
-<img src="./.ert/banner-dark.svg#gh-dark-mode-only" width="100%">
+<img src="./.ert/logo.png" width="100%">
 
-<img src="./.ert/screenshot.png" width="100%">
-
-## :green_book: Usage
+## :green_book: How to use
 
 ```sh
-$ git clone https://github.com/sprout2000/electron-react-ts.git
-$ cd electron-react-ts
+$ git clone https://github.com/GitManTechnologies/GMTBlogEditor.git
+$ cd GMTBlogEditor
 $ npm install
 
 # for development
@@ -25,4 +24,16 @@ _NOTE: You will need to have [Node.js](https://nodejs.org/) and [Git](https://gi
 
 ## :copyright: License
 
-Copyright (c) 2021 sprout2000
+Copyright 2022 GitManTechnologies
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
