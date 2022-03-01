@@ -25,6 +25,3 @@ body {
   align-items: center;
 }
 
-#titlebar {
-  -webkit-app-region: drag;
-}

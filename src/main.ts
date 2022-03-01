@@ -1,5 +1,5 @@
 import path from 'path';
-import { BrowserWindow, app, session, nativeTheme } from 'electron';
+import { BrowserWindow, app, session, nativeTheme, Menu } from 'electron';
 import { searchDevtools } from 'electron-search-devtools';
 
 const isDev = process.env.NODE_ENV === 'development';
@@ -24,16 +24,18 @@ const createWindow = () => {
     height: 400,
     show: false,
     backgroundColor: nativeTheme.shouldUseDarkColors ? '#1e1e1e' : '#f6f6f6',
-    titleBarStyle: 'hidden',
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
-    },
+      nodeIntegration: true,
+    }
   });
 
   if (isDev) mainWindow.webContents.openDevTools({ mode: 'detach' });
   mainWindow.loadFile('dist/index.html');
 
   mainWindow.once('ready-to-show', () => mainWindow.show());
+
+
 };
 
 app.whenReady().then(async () => {
